@@ -1,5 +1,5 @@
 FROM nginx
 EXPOSE 80
 MAINTAINER lakshmi
-LABEL first docker task
+LABEL this is movie ticket booking platform
 COPY index.html /usr/share/nginx/html/
